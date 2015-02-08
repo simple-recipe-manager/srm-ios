@@ -16,7 +16,6 @@
 		6CFA442D1A8753790073B0FC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CFA442B1A8753790073B0FC /* LaunchScreen.xib */; };
 		6CFA44391A8753790073B0FC /* Whisk_lyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFA44381A8753790073B0FC /* Whisk_lyTests.m */; };
 		6CFA44451A8753990073B0FC /* SimpleRecipeManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFA44441A8753990073B0FC /* SimpleRecipeManager.framework */; };
-		6CFA44471A87541E0073B0FC /* SimpleRecipeManager.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CFA44441A8753990073B0FC /* SimpleRecipeManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,14 +29,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		6CFA44461A8754030073B0FC /* CopyFiles */ = {
+		6CFA44461A8754030073B0FC /* Copy Files (0 items) */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6CFA44471A87541E0073B0FC /* SimpleRecipeManager.framework in CopyFiles */,
 			);
+			name = "Copy Files (0 items)";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -148,7 +147,7 @@
 			buildConfigurationList = 6CFA443C1A8753790073B0FC /* Build configuration list for PBXNativeTarget "Whisk.ly" */;
 			buildPhases = (
 				6CFA44121A8753790073B0FC /* Sources */,
-				6CFA44461A8754030073B0FC /* CopyFiles */,
+				6CFA44461A8754030073B0FC /* Copy Files (0 items) */,
 				6CFA44131A8753790073B0FC /* Frameworks */,
 				6CFA44141A8753790073B0FC /* Resources */,
 			);

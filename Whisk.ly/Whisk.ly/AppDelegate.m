@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import <SimpleRecipeManager/RecipeController.h>
+
 
 @interface AppDelegate ()
 
@@ -18,10 +18,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    RecipeController *recipeController = [[RecipeController alloc] init];
-    [recipeController retrieveASingleRecipeAsyncWithId:@"5fe8eb02-a05b-401c-91f0-7f8a4e6b984d" completionBlock:^(BOOL success, id context, RetrieveASingleRecipeResponse *response, NSError *error) {
-        NSLog(response.recipeName);
-    }];
     return YES;
 }
 
